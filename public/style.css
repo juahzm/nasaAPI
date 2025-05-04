@@ -1,0 +1,116 @@
+body {
+    background-color: #fffbfe;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5625;
+
+}
+
+
+.imga {
+    width: 200px;
+    height: 50px;
+
+
+}
+
+h2 {
+    color: #007ea7;
+}
+
+
+.lato-bold {
+    font-family: "Lato", serif;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+.lato-regular {
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.Carte-image {
+    max-width: 70%;
+    border-radius: 20px;
+    transition: transform 0.3 ease;
+
+}
+
+.Carte-image:hover {
+    transform: scale(1.2);
+
+
+}
+
+.Conteneur-astro {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 350px;
+    margin-left: 70px;
+}
+
+.Conteneur-image {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+
+.display-block {
+    display: block;
+    text-align: center;
+
+}
+
+.display-row {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.display-column {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.conteneur-explanation {
+    border-radius: 10px;
+    padding: 10px;
+    border: 0.5px solid #e0e0e0;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+
+}
+
+
+.conteneur-explanation:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+article>* {
+
+    margin-top: 25px;
+}
+
+.small {
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+}
