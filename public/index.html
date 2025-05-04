@@ -24,12 +24,15 @@
 
     <main id="main">
 
-
-
         <article class="Conteneur-astro">
             <div class="display-row">
                 <img class="imga" src="/nasa.png" alt="nasa">
                 <h4>ASTRONOMY PICTURE OF THE DAY</h4>
+                <form action="/view" method="GET">
+                    <input type="date" name="date">
+                    <button type="submit">Submit💫</button>
+                </form>
+
             </div>
             <div>
                 <h2 class="lato-bold display-block" id="titre"></h2>
